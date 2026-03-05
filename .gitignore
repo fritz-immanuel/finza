@@ -1,0 +1,36 @@
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Binaries and build outputs
+bin/
+dist/
+build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.out
+cover.out
+
+# Go workspace/cache (project-local)
+.vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# IDE/editor
+.idea/
+.vscode/
+*.iml
+
+# Runtime artifacts
+*.pid
